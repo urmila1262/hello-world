@@ -1,6 +1,6 @@
 node{
  stage('SCM checkout'){
-  git 'https://github.com/urmila1262/hello-world.git'
+  git 'https://github.com/urmila1262/hello-world'
   }
  stage('compile-package'){
   //get maven home path
